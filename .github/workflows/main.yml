@@ -5,7 +5,7 @@ on:
     types: [created]
 
 jobs:
-  build:
+  notify:
 
     runs-on: ubuntu-latest
 
