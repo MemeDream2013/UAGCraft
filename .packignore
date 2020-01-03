@@ -1,0 +1,9 @@
+.minecraft/.fabric
+.minecraft/.mixin.out
+.minecraft/coremods
+.minecraft/logs
+.minecraft/realms_persistence.json
+.minecraft/saves
+.minecraft/screenshots
+.minecraft/server-resource-packs
+.minecraft/usercache.json
