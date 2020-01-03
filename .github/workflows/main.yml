@@ -1,33 +1,17 @@
-name: CI
-
-on:
-  release:
-    types: [created]
-
-jobs:
-  notify:
-
+jobs: 
+  notify: 
     runs-on: ubuntu-latest
-
-    steps:
-    - name: Discord Webhook Notify
-      uses: rjstone/discord-webhook-notify@v1
-      with:
-        # Discord webhook URL. Should be stored in a secret and inserted as a context expression.
-        webhookUrl: ${{secrets.DISCORD_WEBHOOK}}
-        # Severity level - info, warn, or error
-        severity: info
-        # Embed notification message. Use context expressions and environment variables to provide information. Default provides branch and user info.
-        description: "The modpack has been updated!"
-        # Additional text after the notification message in case you want to retain the default message.
-        details: "Make sure to update your modpack by downloading the new instance export from here\: https://github.com/unnamed-arma-group/UAGCraft/archive/1.15.1.zip"
-        # Footer for the embed. Defaults to severity.
-        footer: # optional
-        # Text to be sent as normal text above the embed. Use context expressions and environment variables to provide information.
-        text: # optional
-        # Username to display in discord.
-        username: # optional
-        # Notification color in the form poundsign rrggbb (hex). Default determined by severity.
-        color: # optional
-        # URL to png of discord avatar to use. Default is the GitHub monochrome mark cat logo.
-        avatarUrl: # optional
+    steps: 
+      - 
+        name: "Discord Webhook Notify"
+        uses: rjstone/discord-webhook-notify@v1
+        with: 
+          description: "The modpack has been updated!"
+          details: "Make sure to update your modpack by downloading the new instance export from here: https://github.com/unnamed-arma-group/UAGCraft/archive/1.15.1.zip"
+          severity: info
+          webhookUrl: "${{secrets.DISCORD_WEBHOOK}}"
+name: CI
+on: 
+  release: 
+    types: 
+      - created
