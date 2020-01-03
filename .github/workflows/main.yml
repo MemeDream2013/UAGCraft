@@ -18,9 +18,9 @@ jobs:
         # Severity level - info, warn, or error
         severity: info
         # Embed notification message. Use context expressions and environment variables to provide information. Default provides branch and user info.
-        description: # optional
+        description: The modpack has been updated!
         # Additional text after the notification message in case you want to retain the default message.
-        details: # optional
+        details: Make sure to update your modpack by downloading the new instance export from here: https://github.com/unnamed-arma-group/UAGCraft/archive/1.15.1.zip
         # Footer for the embed. Defaults to severity.
         footer: # optional
         # Text to be sent as normal text above the embed. Use context expressions and environment variables to provide information.
