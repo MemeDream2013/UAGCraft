@@ -3,7 +3,7 @@
 	"smoothCamera": true,
 	"smoothTransitionOptions": { 
 		// Enables Smooth Transitions when zooming in and out.
-		"smoothTransition": false,
+		"smoothTransition": true,
 		// The divisor used while applying smoothing, smaller number zooms faster, bigger number zoom slower.
 		"smoothDivisor": 128,
 		// The number of times the transition is applied during the zoom press.
