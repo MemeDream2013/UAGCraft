@@ -7,7 +7,7 @@ jobs:
         uses: rjstone/discord-webhook-notify@v1
         with: 
           description: "The modpack has been updated!"
-          details: "Make sure to update your modpack by downloading the new instance export from here: https://github.com/unnamed-arma-group/UAGCraft/archive/1.15.1.zip"
+          details: "Make sure to update your modpack by downloading the new instance export from here: https://github.com/unnamed-arma-group/UAGCraft/archive/release.zip"
           severity: info
           webhookUrl: "${{secrets.DISCORD_WEBHOOK}}"
 name: CI
