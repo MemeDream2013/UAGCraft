@@ -30,8 +30,8 @@ fancyGraphics:true
 ao:2
 biomeBlendRadius:2
 renderClouds:true
-resourcePacks:["vanilla"]
-incompatibleResourcePacks:[]
+resourcePacks:["vanilla","file/1.15-Dokucraft-TSC-High.zip","file/Stardew+Valley+Music+in+Minecraft.zip","file/Better+Wheat+16x+1.15.zip","file/SadSlimes(v1.0)+[@bai.idk].zip","file/Transparent+GUI-1.14.X-R3.zip","file/NumberedHotbar.zip","file/Lithos-Font+v5+for+1.14.4+.zip"]
+incompatibleResourcePacks:["file/Stardew+Valley+Music+in+Minecraft.zip","file/SadSlimes(v1.0)+[@bai.idk].zip","file/Transparent+GUI-1.14.X-R3.zip","file/Lithos-Font+v5+for+1.14.4+.zip"]
 lastServer:86.11.250.218
 lang:en_us
 chatVisibility:0
@@ -90,6 +90,13 @@ key_key.hotbar.6:key.keyboard.6
 key_key.hotbar.7:key.keyboard.7
 key_key.hotbar.8:key.keyboard.8
 key_key.hotbar.9:key.keyboard.9
+key_key.minimap.voxelmapmenu:key.keyboard.n
+key_key.minimap.waypointmenu:key.keyboard.unknown
+key_key.minimap.zoom:key.keyboard.x
+key_key.minimap.togglefullscreen:key.keyboard.m
+key_key.minimap.waypointhotkey:key.keyboard.b
+key_key.minimap.togglemobs:key.keyboard.unknown
+key_key.minimap.toggleingamewaypoints:key.keyboard.unknown
 soundCategory_master:1.0
 soundCategory_music:1.0
 soundCategory_record:1.0

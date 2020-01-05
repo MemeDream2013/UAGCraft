@@ -3,7 +3,7 @@
 		"favorites": [ 
 ],
 		// Declares whether cheating mode is on.
-		"cheating": false,
+		"cheating": true,
 		// Declares whether REI is visible.
 		"overlayVisible": true,
 		"favoritesEnabled": true,
@@ -46,7 +46,7 @@
 		// Declares the appearance of REI windows.
 		"darkTheme": true,
 		// The ordering of the items on the item panel.
-		"recipeScreenType": "UNSET",
+		"recipeScreenType": "ORIGINAL",
 		// Declares the position of the search field.
 		"searchFieldLocation": "CENTER",
 		// Declares the position of the item list panel.
