@@ -4,6 +4,12 @@
 	"customSplashEnabled": true,
 	"removeSplash": false,
 	"customSplash": [
+{
+	"customEditionEnabled": true,
+	"customEdition": "UAGCraft v1.1.1",
+	"customSplashEnabled": true,
+	"removeSplash": false,
+	"customSplash": [
 		"Engaging friendlies daily",
 		"Don't shoot the resupply!",
 		"Banana boys going dark",
@@ -41,6 +47,10 @@
 		"Check the ORBAT",
 		"Can I collect ears?",
 		"Stop crashing the server!"
+	],
+	"removeMinecraftLogo": false
+}
+
 	],
 	"removeMinecraftLogo": false
 }
