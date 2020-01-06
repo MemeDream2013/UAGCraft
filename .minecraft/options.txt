@@ -30,7 +30,7 @@ fancyGraphics:true
 ao:2
 biomeBlendRadius:2
 renderClouds:true
-resourcePacks:["vanilla","file/1.15-Dokucraft-TSC-High.zip","file/Stardew+Valley+Music+in+Minecraft.zip","file/Better+Wheat+16x+1.15.zip","file/SadSlimes(v1.0)+[@bai.idk].zip","file/Transparent+GUI-1.14.X-R3.zip","file/NumberedHotbar.zip","file/Lithos-Font+v5+for+1.14.4+.zip"]
+resourcePacks:["vanilla","file/1.15-Dokucraft-TSC-High.zip","file/Stardew+Valley+Music+in+Minecraft.zip","file/Better+Wheat+16x+1.15.zip","file/SadSlimes(v1.0)+[@bai.idk].zip","file/Transparent+GUI-1.14.X-R3.zip","file/NumberedHotbar.zip","file/Lithos-Font+v5+for+1.14.4+.zip","file/UAGCraft.zip"]
 incompatibleResourcePacks:["file/Stardew+Valley+Music+in+Minecraft.zip","file/SadSlimes(v1.0)+[@bai.idk].zip","file/Transparent+GUI-1.14.X-R3.zip","file/Lithos-Font+v5+for+1.14.4+.zip"]
 lastServer:86.11.250.218
 lang:en_us
@@ -70,7 +70,7 @@ key_key.drop:key.keyboard.q
 key_key.inventory:key.keyboard.e
 key_key.chat:key.keyboard.t
 key_key.playerlist:key.keyboard.tab
-key_key.pickItem:key.mouse.middle
+key_key.pickItem:key.keyboard.grave.accent
 key_key.command:key.keyboard.slash
 key_key.screenshot:key.keyboard.f2
 key_key.togglePerspective:key.keyboard.f5
